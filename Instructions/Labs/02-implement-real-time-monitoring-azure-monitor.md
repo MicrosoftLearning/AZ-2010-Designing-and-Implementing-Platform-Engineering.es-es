@@ -32,7 +32,7 @@ Como ingeniero de plataforma, debes asegurarte de que las aplicaciones que se ej
 1. En la barra de búsqueda, escribe App Services y selecciónalo.
 1. Haz clic en + Crear y selecciona Aplicación Web.
 1. En la pestaña Básica:
-   - Suscripción: Seleccione su suscripción a Azure.
+   - Suscripción: selecciona tu suscripción a Azure.
    - Grupo de recursos: haz clic en Crear nuevo, escribe **`monitoringlab-rg`** y haz clic en Aceptar.
    - Nombre: escribe un nombre único, como **`monitoringlab-webapp`**.
    - Publicar: seleccione Código.
@@ -94,7 +94,7 @@ Como ingeniero de plataforma, debes asegurarte de que las aplicaciones que se ej
 1. Haga clic en Save(Guardar).
 1. Haga clic en Siguiente: Detalles.
 1. Escribe el nombre `WebAppResponseTimeAlert` y selecciona el nivel de gravedad Detallado.
-1. Haga clic en Revisar y crear y, a continuación, en Crear.
+1. Selecciona Revisar y crear y, a continuación, Crear.
 
    > **Nota:** La regla de alerta ya está creada y desencadenará una notificación por correo electrónico cuando el tiempo de respuesta supere el umbral. Puedes forzar que la alerta se desencadene al enviar un gran número de solicitudes a la aplicación web. Por ejemplo, puedes usar pruebas de carga de Azure o una herramienta como Apache JMeter.
 

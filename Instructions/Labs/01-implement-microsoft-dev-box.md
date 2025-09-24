@@ -1,6 +1,6 @@
 ---
 lab:
-  title: "Implementación de Microsoft\_Dev Box"
+  title: Implementación de Microsoft Dev Box
   module: Implement Developer Self-Service
 ---
 
@@ -186,7 +186,7 @@ En esta tarea, crearás un grupo de equipos de desarrollo en el proyecto del Cen
    | Definición                                                                                                        | **devbox-definition-01**                 |
    | Conexión de red                                                                                                | **Implementación en una red hospedada por Microsoft** |
    | Región                                                                                                            | **(EE. UU.) Este de EE. UU.**                         |
-   | Habilitar el inicio de sesión único                                                                                             | Habilitado                                  |
+   | Habilitación del inicio de sesión único                                                                                             | Habilitado                                  |
    | Privilegios de creador de equipo de desarrollo                                                                                        | **Administrador local**                  |
    | Habilitar la detención automática según la programación                                                                                      | Habilitado                                  |
    | Hora de detención                                                                                                         | **07:00 PM**                             |
@@ -266,7 +266,7 @@ En esta tarea, evaluarás la funcionalidad de un equipo de desarrollo mediante u
 
    > **Nota:** Puedes apagar el equipo de desarrollo directamente desde el portal para desarrolladores de Microsoft Dev Box como usuario de desarrollo seleccionando primero el símbolo de puntos suspensivos en la interfaz **Dev Box** y, a continuación, seleccionando **Apagar** en el menú en cascada. Como alternativa, como ingeniero de plataforma o responsable del equipo de desarrollo, puedes controlar el ciclo de vida del equipo de desarrollo desde la sección **Grupos de equipos de desarrollo** del proyecto del centro de desarrollo correspondiente.
 
-## Ejercicio 2: Personalizar un entorno de Microsoft Dev Box
+## Ejercicio 2: personalización de un entorno de Microsoft Dev Box
 
 En este ejercicio, personalizarás la funcionalidad del entorno de Microsoft Dev Box. Este enfoque se centra en la extensión de los cambios que puedes aplicar al implementar una solución de autoservicio de desarrollador personalizada.
 
@@ -651,7 +651,7 @@ En esta tarea, usarás las definiciones de imagen recién aprovisionadas para cr
    | Storage                                                                                                           | **SSD de 256 GB**                                        |
    | Conexión de red                                                                                                | **Implementación en una conexión de red en mi organización** |
    | Nombre de conexión a la red                                                                                           | **network-connection-vnet-01**                        |
-   | Habilitar el inicio de sesión único                                                                                             | Habilitado                                               |
+   | Habilitación del inicio de sesión único                                                                                             | Habilitado                                               |
    | Privilegios de creador de equipo de desarrollo                                                                                        | **Administrador local**                               |
    | Habilitar la detención automática según la programación                                                                                      | Habilitado                                               |
    | Hora de detención                                                                                                         | **07:00 PM**                                          |

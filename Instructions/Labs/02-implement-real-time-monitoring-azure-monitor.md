@@ -49,6 +49,8 @@ Como ingeniero de plataforma, debes asegurarte de que las aplicaciones que se ej
 1. Application Insights ya está habilitado para esta aplicación web. Haz clic en el vínculo para abrir el recurso de Application Insights.
 1. En el recurso de Application Insights, haz clic en el panel de aplicaciones para ver los datos de rendimiento que proporciona el panel predeterminado.
 
+   > **Nota:** El panel puede tardar unos instantes en cargarse completamente y mostrar todos los datos de rendimiento. Espere a que el panel se represente completamente antes de continuar para garantizar una experiencia óptima en ejercicios posteriores.
+
 ## Ejercicio 2: Configuración de Azure Monitor y paneles
 
 ### Tarea 1: Acceder a Azure Monitor
@@ -66,10 +68,18 @@ Como ingeniero de plataforma, debes asegurarte de que las aplicaciones que se ej
 1. Repite el proceso para métricas adicionales:
    - Tiempo de CPU (recuento)
    - Solicitudes (promedio)
-1. Haz clic en el panel y ánclalo en el panel.
-1. Selecciona el tipo Compartido y selecciona la suscripción y el panel de monitoringlab-webapp.
-1. Haga clic en Anclar al panel.
-1. Haz clic en el icono del panel de la izquierda para ver el panel.
+1. En el área del gráfico de métricas, haga clic en el botón **Anclar al panel** (icono de anclaje) en la esquina superior derecha del gráfico.
+1. En el cuadro de diálogo **Anclar al panel** que aparece:
+   - Seleccione **Nuevo** para crear un panel
+   - Escriba un nombre de panel: **`MonitoringLab Dashboard`**
+   - Seleccione la suscripción adecuada
+   - Elija el tipo de panel:
+     - **Público**: El panel será visible para todos los usuarios de la organización. Esto es adecuado para escenarios en los que se necesita visibilidad compartida.
+     - **Privado**: El panel solo será visible para usted. Esto se recomienda para ejercicios de laboratorio o escenarios en los que se debe restringir la visibilidad de los datos.
+   - Haga clic en **Crear y anclar**
+1. Una vez que se cree el panel y se anclen las métricas, haga clic en **Guardar** en el menú superior para guardar el panel.
+1. Para navegar al panel, haga clic en el icono **Panel** del panel izquierdo de Azure Portal o busque "Panel" en la barra de búsqueda superior.
+1. Seleccione el **panel MonitoringLab** recién creado en la lista de paneles.
 1. Comprueba que las métricas se muestren en el panel y se actualicen en tiempo real.
 
 ## Ejercicio 3: Creación de alertas

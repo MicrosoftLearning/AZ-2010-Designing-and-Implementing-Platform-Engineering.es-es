@@ -31,6 +31,14 @@ En un entorno de ingeniería de plataforma, los desarrolladores necesitan una ma
 ### Tarea 1: Instalación de la CLI de Bicep
 
 1. Abre el terminal.
+1. Inicie sesión en una cuenta de Azure:
+
+   ```bash
+   az login
+   ```
+
+   > **NOTA:** Siga las instrucciones para autenticarse con la cuenta de Azure. Esto abrirá un explorador web para la autenticación.
+
 1. Para comprobar que Bicep está instalado, ejecuta:
 
    ```bash
@@ -280,7 +288,7 @@ En un entorno de ingeniería de plataforma, garantizando que las aplicaciones se
 1. Inmediatamente después de este recurso, agrega la configuración de autoscaleSetting:
 
    ```bicep
-   resource autoscaleSetting 'Microsoft.Insights/autoscaleSettings@2024-01-01-preview' = {
+   resource autoscaleSetting 'Microsoft.Insights/autoscaleSettings@2022-10-01' = {
    name: 'autoscale-rule'
    location: location
    properties: {
